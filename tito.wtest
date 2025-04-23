@@ -28,5 +28,8 @@ describe "test de tito" {
         tito.consumir(5, cianuro)
         assert.equals(0,tito.velocidad())
     }
-
+    test "si consume licuado de banana y durazno la velocidad es" {
+        tito.consumir(5, licuado)
+        assert.equals(0,tito.velocidad())
+    }
 }
